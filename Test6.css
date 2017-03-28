@@ -97,7 +97,6 @@ div.logo p {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-right: -50%;
     transform: translate(-50%, -50%) }
 
 div.logo sup {
@@ -360,6 +359,7 @@ div.container.tabs label {
 
 div.container.tabs label {
   padding: 10px;
+  font-size: 3vmin;
 }
 
 input:checked + label:nth-of-type(1) {
