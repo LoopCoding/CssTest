@@ -39,48 +39,48 @@ div.colours div.colour {
 }
 
 div.colours div.colour:nth-of-type(1){
-  background: #2F2933;
+  background: #cc3333;
   animation-name: oneColour;
 }
 div.colours div.colour:nth-of-type(2){
-  background: #01A2A6;
+  background: #f2f2f2;
   animation-name: twoColour;
 }
 div.colours div.colour:nth-of-type(3){
-  background: #29D9C2;
+  background: #cc3333;
   animation-name: threeColour;
 }
 div.colours div.colour:nth-of-type(4){
-  background: #BDF271;
+  background: #f2f2f2;
   animation-name: fourColour;
 }
 
 @keyframes oneColour {
-   0% { background: #2F2933 }
-   25% { background: #01A2A6 }
-   50% { background: #29D9C2 }
-   100% { background: #BDF271 }
+   0% { background: #cc3333 }
+   25% { background: #f2f2f2 }
+   50% { background: #cc3333 }
+   100% { background: #f2f2f2 }
 }
 
 @keyframes twoColour {
-   0% { background: #01A2A6 }
-   25% { background: #29D9C2 }
-   50% { background: #BDF271 }
-   100% { background: #2F2933 }
+   0% { background: #f2f2f2 }
+   25% { background: #cc3333 }
+   50% { background: #f2f2f2 }
+   100% { background: #cc3333 }
 }
 
 @keyframes threeColour {
-   0% { background: #29D9C2 }
-   25% { background: #BDF271 }
-   50% { background: #2F2933 }
-   100% { background: #01A2A6 }
+   0% { background: #cc3333 }
+   25% { background: #f2f2f2 }
+   50% { background: #cc3333 }
+   100% { background: #f2f2f2 }
 }
 
 @keyframes fourColour {
-   0% { background: #BDF271 }
-   25% { background: #2F2933 }
-   50% { background: #01A2A6 }
-   100% { background: #29D9C2 }
+   0% { background: #f2f2f2 }
+   25% { background: #cc3333 }
+   50% { background: #f2f2f2 }
+   100% { background: #cc3333 }
 }
 
 div.logo {
@@ -105,7 +105,7 @@ nav.primary {
 nav.primary a {
   color: #333;
   font-size: 16px;
-  padding: 20px 40px;
+  padding: 10px 20px;
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
@@ -129,7 +129,7 @@ nav.secondary a {
 }
 
 nav.primary a:hover, nav.secondary a:hover {
-  background: #f9f9f9;
+  background: #f5d6d6;
 }
 
 div.promotion {
@@ -139,7 +139,7 @@ div.promotion {
   padding: 18px 0;
   width: 100%;
   display: block;
-  background: #333;
+  background: #cc3333;
   color: #eceaea;
 }
 
@@ -184,7 +184,7 @@ div.product div.gallery div.image {
    padding: 10px 6px;
    margin: 0 auto 10px;
    display: block;
-   background: #333;
+   background: #cc3333;
    color: #eceaea;
  }
 
@@ -296,23 +296,6 @@ div.product span.cost {
   border-bottom: 2px solid #eee;
 }
 
-div.payment {
-  text-align: center;
-  background: #fff;
-  border-bottom: 1px solid #fff;
-}
-
-div.payment h2 {
-  text-transform: uppercase;
-  color: #666;
-  padding-top: 60px;
-  font-size: 1.2em;
-}
-
-div.payment img {
-  max-width: 80px;
-  padding: 40px 20px 0;
-}
 
 input {
   display: none;
@@ -372,16 +355,18 @@ div.container.tabs label {
 }
 
 input:checked + label:nth-of-type(1) {
-  background: #01A2A6;
+  background: #cc3333;
   color: #fff;
 }
 
 input:checked + label:nth-of-type(2) {
-  background: #29D9C2;
+  background: #d14747;
+  color: #fff;
 }
 
 input:checked + label:nth-of-type(3) {
-  background: #BDF271;
+  background: #d65c5c;
+  color: #fff;
 }
 
 footer {
@@ -436,6 +421,9 @@ span.icon {
   display: inline-block;
   background-repeat: no-repeat;
 }
+
+
+
 
 @media screen and (max-width: 650px) {
   nav.primary {
@@ -522,4 +510,5 @@ span.icon {
     width: calc(100% - 30px);
     padding: 15px;
   }
+    
 }
